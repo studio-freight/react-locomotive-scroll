@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/toinelin/react-locomotive-scroll">
+  <a href="https://github.com/@studio-freight/react-locomotive-scroll">
     <img src="https://user-images.githubusercontent.com/4596862/58807621-67aeec00-85e6-11e9-8e3a-3fe4123ee76c.png" alt="Logo" width="80" height="80">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt="Logo" height="60">
   </a>
@@ -14,11 +14,11 @@
     <a href="https://github.com/locomotivemtl/locomotive-scroll"><strong>Explore Locomotive Scroll docs »</strong></a>
     <br />
     <br />
-    <!-- <a href="https://github.com/toinelin/react-locomotive-scroll">View Demo</a>
+    <!-- <a href="https://github.com/@studio-freight/react-locomotive-scroll">View Demo</a>
     · -->
-    <a href="https://github.com/toinelin/react-locomotive-scroll/issues">Report Bug</a>
+    <a href="https://github.com/@studio-freight/react-locomotive-scroll/issues">Report Bug</a>
     ·
-    <a href="https://github.com/toinelin/react-locomotive-scroll/issues">Request Feature</a>
+    <a href="https://github.com/@studio-freight/react-locomotive-scroll/issues">Request Feature</a>
   </p>
 </p>
 
@@ -49,13 +49,13 @@ To get a local copy up and running follow these simple steps.
 ### Installation
 
 ```sh
-$ npm install locomotive-scroll react-locomotive-scroll
+$ npm install locomotive-scroll @studio-freight/react-locomotive-scroll
 ```
 
 or using [Yarn](https://yarnpkg.com/)
 
 ```sh
-$ yarn add locomotive-scroll react-locomotive-scroll
+$ yarn add locomotive-scroll @studio-freight/react-locomotive-scroll
 ```
 
 
@@ -65,7 +65,7 @@ $ yarn add locomotive-scroll react-locomotive-scroll
 
 ### 1. Import the provider
 ```js
-import { LocomotiveScrollProvider } from 'react-locomotive-scroll'
+import { LocomotiveScrollProvider } from '@studio-freight/react-locomotive-scroll'
 ```
 
 ### 2. Wrap your application using the provider
@@ -115,7 +115,7 @@ You may want to use `data-scroll-section` on each page which may be wrapped by `
 
 ### 5. Get the scroll instance through all your components
 ```js
-import { useLocomotiveScroll } from 'react-locomotive-scroll'
+import { useLocomotiveScroll } from '@studio-freight/react-locomotive-scroll'
 
 export function Component() {
   const { scroll } = useLocomotiveScroll()
@@ -136,7 +136,7 @@ If you want to write some code applied only when the location change but not whe
 
 First, remove the location props from the `watch` dependencies list and add it to the `location` props.
 
-> `react-locomotive-scroll` will update the scroll instance as it should, but in a different `useEffect` than the one used to update watched dependencies
+> `@studio-freight/react-locomotive-scroll` will update the scroll instance as it should, but in a different `useEffect` than the one used to update watched dependencies
 
 ```js
 const { pathname } = useLocation() // With react-router
@@ -190,7 +190,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Antoine Lin - [@vahilloff](https://twitter.com/vahilloff) - contact@antoinelin.com
 
-Project Link: [https://github.com/toinelin/react-locomotive-scroll](https://github.com/toinelin/react-locomotive-scroll)
+Project Link: [https://github.com/@studio-freight/react-locomotive-scroll](https://github.com/@studio-freight/react-locomotive-scroll)
 
 
 
