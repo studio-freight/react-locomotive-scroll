@@ -1,11 +1,11 @@
 {
   "name": "@studio-freight/react-locomotive-scroll",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "A locomotive-scroll React wrapper",
   "main": "module/index.js",
   "module": "module/index.js",
   "typings": "module/index.d.ts",
-  "repository": "git@github.com:toinelin/react-locomotive-scroll.git",
+  "repository": "git@github.com:studio-freight/react-locomotive-scroll.git",
   "author": "Antoine <contact@antoinelin.com>",
   "license": "MIT",
   "keywords": [

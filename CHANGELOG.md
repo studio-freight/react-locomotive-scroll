@@ -1,3 +1,7 @@
+
+
+## [0.3.5](https://github.com/studio-freight/react-locomotive-scroll/compare/0.2.0...0.3.5) (2022-06-01)
+
 # [0.2.0](https://github.com/toinelin/react-locomotive-scroll/compare/0.1.8...0.2.0) (2021-09-13)
 
 
@@ -62,4 +66,3 @@
 ### Reverts
 
 * **use-resize-observer:** finaly force the use of observer to avoid weird behaviours ([3ac0e7e](https://github.com/toinelin/react-locomotive-scroll/commit/3ac0e7eee2d28a0613fa958fdba80f254d8f9c30))
-
