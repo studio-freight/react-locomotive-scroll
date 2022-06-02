@@ -1,5 +1,7 @@
 
 
+## [0.3.6](https://github.com/studio-freight/react-locomotive-scroll/compare/0.3.5...0.3.6) (2022-06-02)
+
 ## [0.3.5](https://github.com/studio-freight/react-locomotive-scroll/compare/0.2.0...0.3.5) (2022-06-01)
 
 # [0.2.0](https://github.com/toinelin/react-locomotive-scroll/compare/0.1.8...0.2.0) (2021-09-13)
