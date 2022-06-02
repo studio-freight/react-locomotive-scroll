@@ -44,7 +44,6 @@
     ]
   },
   "dependencies": {
-    "react-use": "^17.4.0",
     "use-debounce": "^8.0.1",
     "use-resize-observer": "9.0.0"
   },
