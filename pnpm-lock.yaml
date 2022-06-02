@@ -19,10 +19,12 @@ specifiers:
   release-it: ^15.0.0
   tslib: ^2.4.0
   typescript: 4.7.2
+  use-debounce: ^8.0.1
   use-resize-observer: 9.0.0
 
 dependencies:
   react-use: 17.4.0
+  use-debounce: 8.0.1
   use-resize-observer: 9.0.0
 
 devDependencies:
@@ -4912,6 +4914,13 @@ packages:
     dependencies:
       prepend-http: 2.0.0
     dev: true
+
+  /use-debounce/8.0.1:
+    resolution: {integrity: sha512-6tGAFJKJ0qCalecaV7/gm/M6n238nmitNppvR89ff1yfwSFjwFKR7IQZzIZf1KZRQhqNireBzytzU6jgb29oVg==}
+    engines: {node: '>= 10.0.0'}
+    peerDependencies:
+      react: '>=16.8.0'
+    dev: false
 
   /use-resize-observer/9.0.0:
     resolution: {integrity: sha512-13r/1XeyfPkeegiVZYLDoQbkwbVMzj1XghqNz9HFqiRevtXCWDQTsqzVjQ4WNM4rJ8P3sFYc+3TgX0J2Jsuxfw==}

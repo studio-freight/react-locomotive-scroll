@@ -1,6 +1,6 @@
 import { LocomotiveScrollOptions, Scroll } from 'locomotive-scroll'
 import { createContext, DependencyList, MutableRefObject, useEffect, useRef, useState } from 'react'
-import { useDebounce } from 'react-use'
+import { useDebounce } from 'use-debounce'
 import useResizeObserver from 'use-resize-observer'
 
 export interface LocomotiveScrollContextValue {
@@ -34,7 +34,7 @@ export function LocomotiveScrollProvider({
   const { height: containerHeight } = useResizeObserver<HTMLDivElement>({ ref: containerRef })
   const [isReady, setIsReady] = useState(false)
   const LocomotiveScrollRef = useRef<Scroll | null>(null)
-  const [height] = useDebounce(() => containerHeight, 100)
+  const [height] = useDebounce(containerHeight, 100)
 
   if (!watch) {
     console.warn(
